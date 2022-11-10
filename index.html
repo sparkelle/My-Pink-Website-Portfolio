@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+sparklingsite
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+    <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div class="content-wrap">
+          <h1>Hi. I'm Krisha Elle Tiru. <br>
+          </h1>
+          <p>A student in Tarlac State University.</p>
+          <a href="#section-a" class="btn">About Me</a>
+          <a href="#section-b" class="btn">Shop</a>
+          <a href="#section-b" class="btn">Socials</a>
+        </div>
+      </header>
+
+      <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+          <div class="content-wrap">
+            <h2 class="content-title">Little Information About Myself </h2>
+            <div class="content-text">
+              <p>I am 20 years old, born on December 19, 2001. Finished my junior 
+                year in Tarlac National High School - San Miguel Campus (2014-2018) and
+                 graduated Senior High School at Golden Olympus Colleges (2018-2020) as
+                  a TVL-ICT student. I live and grew up in Barangay 
+                Atioc Tarlac City. My parents are still working hard and I hope to one
+            day spoil them because they deserve a better life.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section B -->
+    <section id="section-b" class="grid">
+        <ul>
+          <li>
+            <div class="card">
+              <img src="https://i.pinimg.com/originals/4a/62/f6/4a62f69c06fc58ca7d81f5d86ea73a68.gif" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Piso Unlocks & Premium Accounts</h3>
+                <p>I bet all of you know what chegg, bartleby, coursehero, and quizlet is.
+                 Well, I unlock them for piso online and most of my clients are on telegram so you better join us. I also sell Netflix, Spotify, Youtube, 
+                 Quillbot, Grammarly blackmarket accounts because first of all, I 
+                 am broke, and secooond y not. </p>
+                <a href="https://www.instagram.com/sparkling.cart/" class="btn">Premium Accounts Here</a>
+                <a href="https://t.me/sparkunlocks" class="btn">Piso Unlocks</a>
+              </div>
+            </div>
+          </li>
+
+
+          
+          <li>
+            <div class="card">
+              <img src="https://i.pinimg.com/originals/f2/fc/0f/f2fc0fc2847519ad3459085c8fcb45c9.gif" alt="">
+              <div class="card-content">
+                <h3 class="card-title">Baking</h3>
+               
+                <img id="myImg" src="bake.jpg" alt="biggest batch i ever baked" style="width:100%;max-width:300px">
+  
+                <p>This is the biggest batch of order that I received. I'm still thinking about opening a social media acc
+                    and grow it but MY COLLEGE ACTIVITIES IS TAKING ALL MY TIME. 1 more year 'til I graduate
+                    but if you want these cookie brownies (crispy outside but chewy on the inside) hit me up
+                    on uhh facebook 
+                </p>
+                <a href="https://facebook.com/elle.tiru/" class="btn">dm me here</a>
+                
+                
+  
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+                
+                <script>
+   
+                var modal = document.getElementById("myModal");
+                
+                var img = document.getElementById("myImg");
+                var modalImg = document.getElementById("img01");
+                var captionText = document.getElementById("caption");
+                img.onclick = function(){
+                  modal.style.display = "block";
+                  modalImg.src = this.src;
+                  captionText.innerHTML = this.alt;
+                }
+
+                 // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+              
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
+              
+            </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <img src="https://i.pinimg.com/originals/8a/e7/3e/8ae73e44fe6011adc07d4027d1f43d76.gif" alt="">
+            <div class="card-content">
+              <h3 class="card-title">Acad Serving</h3>
+              <p>In exchange of money, I do other student's academic works. It was actually fun earning 
+                as a student and it really helped me pay my monthly bills but I do not recommend it. 
+                It made me stressed and valorant is my anti-stress game (lol, jk) I'll just cry midgame 
+                just because the enemy sage would kill me with her grim wall and say ez. I'm still accepting 
+                commissions so if you need an acad server for your essay, hw, math-related activities or anything
+                you're too lazy to do, hit me up on tg @sparkellx.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  
+    <!-- Section C -->
+    <section id="section-c" class="grid">
+      <div class="content-wrap">
+        <h2 class="content-title">wala pa pong content i2 </h2>
+        <p>ganda q</p>
+      </div>
+    </section>
+  
+    <!-- Section D -->
+    <section id="section-d" class="grid">
+      <div class="box">
+        <h2 class="content-title">Contact Me</h2>
+        <p>instagram: <a href="https://www.instagram.com/sprkll_/"> @tiruelle</a></p>
+        <p>gmail: <a href="https://www.google.com/intl/fil/gmail/about/#">tirukelle@gmail.com</a></p>
+        <p>contact number: +639506082836</p>
+      </div>
+      <div class="box">
+        <h2 class="content-title">About my Company</h2>
+        <p>It doesn't exist now. Absolutely soon.</p>
+      </div>
+    </section>
+  </main>
+                
+
+    </body>
+</html>
